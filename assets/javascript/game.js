@@ -78,7 +78,7 @@ function gameChecker(score){
         resetGame();
     }
 
-    if(score > guessNumber){
+    else if(score > guessNumber){
         lossTotal++;
         $('#losses').text("Losses: " + lossTotal);
         resetGame();
