@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header><h1 id="headerTitle">Crystal Collector!</h1></header>
+
+    <div id="directions">
+        <p class="paragraphStyle">You will be given a random number at the start of the game.</p>
+        <p class="paragraphStyle">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.</p>
+        <p class="paragraphStyle">You win the game by matching your total score to the random number. You lose the game if your total score
+            goes above the random number.</p>
+        <p class="paragraphStyle">The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+
+    <div id="ranNumberAndStats">
+        <div id="randomNumber">0</div>
+
+        <div>
+            <ul id="winsAndLosses">
+                <li id="wins" class="winsLossesList">Wins:</li>
+                <li id ="losses" class="winsLossesList">Losses:</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="jewelDiv">
+        <div id="jewelUL">
+            <button id="emerald-button" class="button"><i class="fas fa-gem jewel emerald" data-gem-type="emerald"></i></li>
+            <button id="sapphire-button" class="button"><i class="fas fa-gem jewel sapphire" data-gem-type="sapphire"></i></li>
+            <button id="ruby-button" class="button"><i class="fas fa-gem jewel ruby" data-gem-type="ruby"></i></li>
+            <button id="amethyst-button" class="button"><i class="fas fa-gem jewel amethyst" data-gem-type="amethyst"></i></li>
+        </div>
+    </div>
+    <div id="scoreText">Your total score is:</div>
+    <div id="totalScore">0</div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

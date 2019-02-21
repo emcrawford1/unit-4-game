@@ -1,0 +1,174 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color: azure;
+    height: 65px;
+}
+
+#headerTitle{
+    background-color: rgb(156, 241, 213);
+    color: rgb(39, 66, 90);
+    width: 230px;
+    height: 50px;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#directions{
+    clear: both;
+    background-color: azure;
+    margin-left: 5%;
+    margin-top: 15px;
+    padding: 15px;
+    width: 40%;
+    margin-bottom:15px;
+    min-width: 300px;
+}
+
+.paragraphStyle{
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#ranNumberAndStats{
+    width: 40%;
+    background-color: azure;
+    margin-left: 5%;
+    height: 80px;
+    padding: 15px;
+    margin-bottom:15px;
+    min-width: 300px;
+}
+
+
+#randomNumber{
+    float:left;
+    background-color: crimson;
+    font-size: 40px;
+    height: 60px;
+    width: 80px;
+    margin-right:10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+#winsAndLosses{
+    float:left;
+    background-color: bisque;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#wins{
+    margin-bottom: 5px;
+}
+
+.winsLossesList{
+    float:left;
+    clear:both;
+    margin-left: 15px;
+}
+
+#jewelDiv{
+
+    width: 40%;
+    background-color: azure;
+    margin-left: 5%;
+    padding: 15px;
+    overflow: auto;
+    margin-bottom:15px;
+    min-width: 300px;
+}
+
+#jewelUL{
+    
+    width: 100%;
+    padding-left: 5px;
+
+}
+
+.jewel{
+
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 2px;
+    height: 80px;
+    width: 80px;
+    font-size: 75px;
+  
+   
+
+}
+
+.emerald{
+    color: rgb(44, 168, 55);
+}
+
+.sapphire{
+    color: rgb(24, 36, 197);
+}
+
+
+.ruby{
+    color: rgb(131, 2, 2);
+}
+
+.amethyst{
+    color: rgb(79, 10, 145);
+}
+
+.button{
+    border: none;
+    background-color: azure;
+    margin-right: 5px;
+}
+
+
+#scoreText{
+
+    background-color: azure;
+    margin-left: 5%;
+    margin-bottom:15px;
+    width: 40%;
+    padding: 15px;
+    font-size: 20px;
+    min-width: 300px;
+}
+
+#totalScore{
+    background-color: azure;
+    margin-left: 5%;
+    margin-bottom:5%;
+    padding: 15px;
+    font-size: 40px;
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width: 750px){
+    
+    #headerTitle{
+        width: 330px;
+    }
+   
+}
